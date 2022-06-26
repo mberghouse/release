@@ -669,6 +669,7 @@ subroutine GlobalUpdateAuxVars(realization,time_level,time)
                                GAS_DENSITY, GAS_SATURATION, &
                                TEMPERATURE, SC_FUGA_COEFF, GAS_DENSITY_MOL, &
                                DARCY_VELOCITY
+
 #include "petsc/finclude/petscvec.h"
   use petscvec
   use Discretization_module
