@@ -150,5 +150,5 @@ module Variables_module
   PetscInt, parameter, public :: GAS_PERMEABILITY_X      = 120
   PetscInt, parameter, public :: GAS_PERMEABILITY_Y      = 121
   PetscInt, parameter, public :: GAS_PERMEABILITY_Z      = 122
-
+  PetscInt, parameter, public :: DARCY_VELOCITY          = 123
 end module Variables_module
