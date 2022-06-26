@@ -1,5 +1,5 @@
 module Global_module
-
+bfvsudyovbuFA UYESDF
 #include "petsc/finclude/petscsys.h"
   use petscsys  
   use Global_Aux_module
@@ -673,7 +673,7 @@ subroutine GlobalUpdateAuxVars(realization,time_level,time)
 #include "petsc/finclude/petscvec.h"
   use petscvec
   use Discretization_module
-
+gbvyuwiserdgbfvuiwesbdufibwseipbgf
   
   class(realization_subsurface_type) :: realization
   PetscReal :: time
