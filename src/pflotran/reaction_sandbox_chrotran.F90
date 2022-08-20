@@ -626,7 +626,8 @@ subroutine ChrotranKineticState(this,rt_auxvar,global_auxvar, &
             - mu_B*material_auxvar%volume + &                      ! mol/m3 bulk/s * m3 bulk
             ! Natural decay, mol/s
             this%rate_B_2* &                         ! 1/s
-            global_auxvar%liquid_pressure(iphase)**5.d-1 * &
+            global_auxvar%pres(iphase)**5.d-1 * &
+			global_auxvar%darcy_vel(iphase)**5.d-1 * &
             (rt_auxvar%immobile(this%B_id) - &
             this%background_concentration_B)* &                                   ! mol/m3 bulk
             material_auxvar%volume + &                             ! m3 bulk
