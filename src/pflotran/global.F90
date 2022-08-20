@@ -1,5 +1,4 @@
 module Global_module
-bfvsudyovbuFA UYESDF
 #include "petsc/finclude/petscsys.h"
   use petscsys  
   use Global_Aux_module
