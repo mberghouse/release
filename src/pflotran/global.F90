@@ -672,7 +672,6 @@ subroutine GlobalUpdateAuxVars(realization,time_level,time)
 #include "petsc/finclude/petscvec.h"
   use petscvec
   use Discretization_module
-gbvyuwiserdgbfvuiwesbdufibwseipbgf
   
   class(realization_subsurface_type) :: realization
   PetscReal :: time
